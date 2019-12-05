@@ -23,12 +23,12 @@ EarningRate = 1.02
 
 def SendTeleMessage(string, who):
     if who == "tablet-api&db":
-        bot = telegram.Bot(token="255382445:AAEjVx8xzeusWLeaUhp2F1SiA9mIa7G1V_s")
+        bot = telegram.Bot(token="")
     elif who == "pi-news":
-        bot = telegram.Bot(token="196997404:AAEWruipuqcHcomrYcWVCwoetOjysxsAQ8s")
+        bot = telegram.Bot(token="")
     elif who == "tablet-trader":
-        bot = telegram.Bot(token="229690897:AAE8f5FIiumGqw1jceOV9uvuZ5BQWluS6yk")
-    bot.send_message(chat_id=233869620, text=today + " " + string)
+        bot = telegram.Bot(token="")
+    bot.send_message(chat_id=000000000, text=today + " " + string)
 
 def GetTimenow():
     now = time.localtime()
