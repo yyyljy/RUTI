@@ -7,8 +7,8 @@ import time
 import sqlite3
 import telegram
 
-bot = telegram.Bot(token="255382445:AAEjVx8xzeusWLeaUhp2F1SiA9mIa7G1V_s")
-teleid = 233869620
+bot = telegram.Bot(token="")
+teleid = 000000000
 today = datetime.datetime.today().strftime("%y%m%d")
 today = "20" + today
 
